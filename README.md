@@ -4,7 +4,7 @@ A fully responsive GitHub–style profile UI built using React, TypeScript, CSS,
 This project recreates GitHub's header, sidebar, tabs, and content layout with pixel-accurate UI elements.
 
 
-## Setup Instructions
+## Setup Instructions => frontend only
 1. Clone the repo
 git clone
 cd PROJECT_DIR
@@ -17,6 +17,13 @@ Create .env from .env.example
 
 4. Start development server
 npm run dev
+
+
+## if you need backend:
+cd backend
+npm install
+set .env
+node index.js
 
 
 ## API Endpoints Used
